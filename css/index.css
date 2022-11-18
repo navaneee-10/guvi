@@ -1,0 +1,82 @@
+body {
+    color: white ;
+    background-color : black;    
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 18px;
+  }
+  body::-webkit-scrollbar{
+    display: none;
+  }
+  .header{
+    grid-area: head;
+    height: 1000px;
+    width: 100vw;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    font-size: 50px;
+  }
+  .split-left{
+    background-image: radial-gradient( #202020, #151515, #101010);
+    height: 300px;          
+    position: fixed;
+    margin-top: 200px; 
+    width: 350px;
+    margin-left: 15vw;
+    height: 150px;   
+    text-align: center;
+    padding-top: 80px;
+    border: 1px solid;
+    box-shadow: 5px 10px rgb(119, 119, 119);
+    font-size: 18px;
+  }
+  .split-right{
+   
+    background-image: radial-gradient( #202020, #151515, #101010);
+    margin-top: 200px;    
+    position: fixed;
+    width: 350px;
+    margin-left: 60vw;
+    height: 150px;   
+    text-align: center;
+    padding-top: 80px;
+    border: 1px solid;
+    box-shadow: 5px 10px rgb(119, 119, 119);
+    font-size: 18px;
+  }  
+
+#log_in_button{
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-size: 12px;
+    font-weight: 750;
+    transition: 1s;
+    
+}
+#log_in_button:hover{
+    font-size: 13px;  
+    cursor: pointer;
+    background:rgb(190, 190, 190);  
+    color: black;
+}
+.center{
+   
+    background-image: radial-gradient( #202020, #151515, #101010);
+    margin-top: 150px;    
+    position: fixed;
+    width: 500px;
+    margin-left: 30vw;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid;
+    box-shadow: 5px 10px rgb(119, 119, 119);
+
+  }  
